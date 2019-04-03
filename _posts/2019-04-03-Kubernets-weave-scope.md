@@ -10,10 +10,10 @@ Weave Scope는 Docker 및 Kubernetes의 시각화 및 모니터링 도구다. We
 
 **[참고][Weave Scope](https://www.weave.works/docs/scope/latest/introducing/)**
 
-{: .box-note}
+~~~
 $ kubectl create -f 'https://cloud.weave.works/launch/k8s/weavescope.yaml'
-
-{: .box-note}
+~~~
+~~~
 $ kubectl get pods -n weave
 NAME                                         READY   STATUS    RESTARTS   AGE
 weave-scope-agent-khwfx                      1/1     Running   0          3m52s
@@ -21,20 +21,20 @@ weave-scope-agent-wqk72                      1/1     Running   0          3m52s
 weave-scope-agent-xqnc8                      1/1     Running   0          3m52s
 weave-scope-app-6cbf5dbc45-l7zz9             1/1     Running   0          3m52s
 weave-scope-cluster-agent-5d7f64677b-vfrxx   1/1     Running   0          3m52s
-
-{: .box-note}
+~~~
+~~~
 $ pod=$(kubectl get pod -n weave --selector=name=weave-scope-app -o jsonpath={.items..metadata.name})
-
-{: .box-note}
+~~~
+~~~
 $ kubectl expose pod $pod -n weave --external-ip="172.17.0.71" --port=4040 --target-port=4040 --type=NodePort
-
-{: .box-note}
+~~~
+~~~
 $ kubectl get services --all-namespaces
 ...
 weave         weave-scope-app                    ClusterIP      10.110.184.207   <none>        80/TCP                                                                         4m45s
 weave         weave-scope-app-6cbf5dbc45-l7zz9   NodePort       10.99.108.240    172.17.0.71   4040:31937/TCP                                                                 3m25s
-
-{: .box-note}
+~~~
+~~~
 $ kubectl describe services -n weave
 Name:              weave-scope-app
 Namespace:         weave
@@ -79,6 +79,7 @@ Endpoints:                10.244.1.87:4040
 Session Affinity:         None
 External Traffic Policy:  Cluster
 Events:                   <none>
+~~~
  ​
 
 웹 브라우저를 실행하여 접속해보자. NodePort 31937
@@ -88,6 +89,9 @@ http://weave-scope:31937
 ​
 
 ![Weave Scope](./img/weavescope.png)
+![Weave Scope](./img/weavescope1.png)
+![Weave Scope](./img/weavescope2.png)
+![Weave Scope](./img/weavescope3.png)
 
 
 
