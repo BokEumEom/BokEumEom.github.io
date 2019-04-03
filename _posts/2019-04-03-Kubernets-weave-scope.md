@@ -80,7 +80,7 @@ http://weave-scope:31937
 
 ​
 
-![Weave Scope](./img/weavescope.png)
+![Weave Scope](/img/weavescope.png)
 
 
 
