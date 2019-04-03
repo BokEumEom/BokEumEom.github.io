@@ -88,10 +88,10 @@ http://weave-scope:31937
 
 ​
 
-![Weave Scope](./img/weavescope.png)
-![Weave Scope](./img/weavescope1.png)
-![Weave Scope](./img/weavescope2.png)
-![Weave Scope](./img/weavescope3.png)
+![Weave Scope](/img/weavescope.png)
+![Weave Scope](/img/weavescope1.png)
+![Weave Scope](/img/weavescope2.png)
+![Weave Scope](/img/weavescope3.png)
 
 
 
