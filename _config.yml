@@ -131,8 +131,8 @@ content:
         quote: >
           삼성 SDS 클라우드 사업팀 AWS 파트 매니지드 서비스 (챗온 등)
         description: | # this will include new lines to allow paragraphs
-            Amazon Web Service Management and Operation, Technical Support
-            -EC2, EBS, S3, ELB, RDS, CLI, Ubuntu, Software Raid, Ticket, etc.
+            - Amazon Web Service Management and Operation, Technical Support
+            - EC2, EBS, S3, ELB, RDS, CLI, Ubuntu, Software Raid, Ticket, etc.
       - layout: left
         title: 유니트론씨스템즈
         link: http://www.unitrons.co.kr/
