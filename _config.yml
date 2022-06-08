@@ -82,9 +82,16 @@ content:
         sub_title: DevOps
         caption: February 2021 - Present
         quote: >
-          AWS Multi Account and Multi Region management
+          Global Fintech
         description: | # this will include new lines to allow paragraphs
-            Terraform 도입
+            - AWS Cloud Management and Operation
+            - Terraform 도입
+            - ECS 도입
+            - AWS WAF 운영
+            - GitLab CI / CD
+            - Logs collection using CloudWatch Logs and OpenSearch
+            - Apache, PHP, Kafka Installation and Configuration
+            - Metabase
       - layout: left
         title: 헬로네이처
         link: https://www.hellonature.co.kr/
@@ -94,7 +101,13 @@ content:
         quote: >
           온라인 유기농 신선식품 새벽배송 서비스
         description: | # this will include new lines to allow paragraphs
-            AWS 구축 및 운영
+            - AWS Cloud Management and Operation
+            - Monitoring system (cpu, mem, disk, network, etc.) using Prometheus and Grafana
+            - Logs collection system (tomcat catalina, apache, nginx access, ELB, etc.) using Elastic Stack and CloudWatch Logs
+            - Application monitoring system (apache, php, nodejs, tomcat) using New Relic and Pinpoint
+            - AWS Resource Cost Optimization
+            - Analyzing, troubleshooting, and providing solutions for technical issues.
+            - Apache, Nginx, Tomcat Installation and Configuration
       - layout: left
         title: 퍼펙트월드코리아
         link: https://www.pwrd.co.kr/
@@ -102,9 +115,13 @@ content:
         sub_title: 시스템 엔지니어
         caption: August 2015 - November 2019
         quote: >
-          슈퍼진화스토리, 열화여가, 무신, 유니슨리그 등 모바일 게임 서비스
+          슈퍼진화스토리, 열화여가, 무신, 유니슨리그, 사조영웅전, 불패전신 모바일 게임 서비스
         description: | # this will include new lines to allow paragraphs
-            모바일 게임 서비스 인프라 구축 및 운영
+            - IDC Dell 130 EA management and maintenance 
+            - KT U Cloud biz management and operation
+            - VMware ESXi and Xen platform management and operation
+            - Linux(CentOS)and Windows System engineering
+            - Zabbix Monitoring System
       - layout: left
         title: 인프라닉스
         link: http://infranics.com/
@@ -112,9 +129,10 @@ content:
         sub_title: 시스템 엔지니어
         caption: May 2013 - December 2014
         quote: >
-          삼성 SDS 클라우드 사업팀 AWS 파트 매니지드 서비스 (챗온, sClound 등)
+          삼성 SDS 클라우드 사업팀 AWS 파트 매니지드 서비스 (챗온 등)
         description: | # this will include new lines to allow paragraphs
-            AWS 구축 및 운영, 기술지원, 자원효율화, 장애 대응
+            Amazon Web Service Management and Operation, Technical Support
+            -EC2, EBS, S3, ELB, RDS, CLI, Ubuntu, Software Raid, Ticket, etc.
       - layout: left
         title: 유니트론씨스템즈
         link: http://www.unitrons.co.kr/
@@ -124,7 +142,13 @@ content:
         quote: >
           공공기관 및 관공서 서버 구축 및 기술지원
         description: | # this will include new lines to allow paragraphs
-            Sun Microsystems(Solaris) 기반 서버 구축 및 기술지원, Fujitsu Server, Veritas Solution 구축 및 기술지원
+            - Solaris Server and Storage construction and maintenance
+            - Fusitsu Server and Storage maintenance 
+            - Linux System maintenance
+            - Windows System maintenance 
+            - NetBackup Technical Support 
+            - Veritas Storage Foundation 
+            - Veritas Cluster Server Technical Support
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
