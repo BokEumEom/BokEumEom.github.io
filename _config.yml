@@ -53,25 +53,6 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>AWS</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -150,6 +131,27 @@ content:
             - NetBackup Technical Support 
             - Veritas Storage Foundation 
             - Veritas Cluster Server Technical Support
+
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 헬로네이처
+        link: https://www.hellonature.co.kr/
+        # link_text: boringcompany.com
+        sub_title: 시스템 엔지니어
+        caption: December 2019 - November 2020
+        quote: >
+          온라인 유기농 신선식품 새벽배송 서비스
+        description: | # this will include new lines to allow paragraphs
+            - AWS Cloud Management and Operation
+            - Monitoring system (cpu, mem, disk, network, etc.) using Prometheus and Grafana
+            - Logs collection system (tomcat catalina, apache, nginx access, ELB, etc.) using Elastic Stack and CloudWatch Logs
+            - Application monitoring system (apache, php, nodejs, tomcat) using New Relic and Pinpoint
+            - AWS Resource Cost Optimization
+            - Analyzing, troubleshooting, and providing solutions for technical issues.
+            - Apache, Nginx, Tomcat Installation and Configuration
+            - Code Build, Code Deploy
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
