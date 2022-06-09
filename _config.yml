@@ -108,6 +108,7 @@ content:
             - AWS Resource Cost Optimization
             - Analyzing, troubleshooting, and providing solutions for technical issues.
             - Apache, Nginx, Tomcat Installation and Configuration
+            - Code Build, Code Deploy
       - layout: left
         title: 퍼펙트월드코리아
         link: https://www.pwrd.co.kr/
