@@ -90,6 +90,7 @@ content:
             - Analyzing, troubleshooting, and providing solutions for technical issues.
             - Apache, Nginx, Tomcat Installation and Configuration
             - Code Build, Code Deploy
+            - Yona Installation and Configuration
       - layout: left
         title: 퍼펙트월드코리아
         link: https://www.pwrd.co.kr/
@@ -149,7 +150,7 @@ content:
             - Linux (CentOS, Ubuntu), Windows, Solaris
             - Apache, Tomcat, Nginx, PHP
             - Docker
-            - GitLab, Jenkins, AWS Code Deploy
+            - GitLab, Jenkins, Yona
             - Prometheus, Grafana, Zabbix, Nagios
             - Pinpoint, New Relic, Datadog
             - VMware ESXi, XenServer, Hyper-V
