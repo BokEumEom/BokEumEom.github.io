@@ -15,7 +15,7 @@ website: https://blog.naver.com/bokmail83
 darkmode: false
 
 # Social links
-twitter_username: bokeum
+# twitter_username: bokeum
 github_username:  BokEumEom
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -31,8 +31,11 @@ linkedin_username: bokeum
 
 # Additional icon links
 additional_links:
+- title: X (Twitter)
+  icon: fab fa-x-twitter
+  url: https://x.com/bokeum
 - title: Threads
-  icon: fas fa-globe
+  icon: fab fa-threads
   url: https://www.threads.com/@geumverse_ai
 
 # Google Analytics and Tag Manager
