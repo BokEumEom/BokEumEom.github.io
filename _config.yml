@@ -32,10 +32,10 @@ linkedin_username: bokeum
 # Additional icon links
 additional_links:
 - title: X
-  icon: x-icon
+  icon_url: /images/x-logo.svg
   url: https://x.com/bokeum
 - title: Threads
-  icon: threads-icon
+  icon_url: /images/threads-logo-black.svg
   url: https://www.threads.com/@geumverse_ai
 
 # Google Analytics and Tag Manager
