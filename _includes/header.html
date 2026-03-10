@@ -101,7 +101,7 @@
           <li>
             {% include a.html href=link.url class="button button--sacnite button--round-l" %}
               {%- if link.icon_url -%}
-                <img src="{{ link.icon_url }}" alt="{{ link.title | escape }}" title="{{ link.title | escape }}" style="width:1em;height:1em;vertical-align:middle;filter:brightness(0) invert(1);">
+                <img src="{{ link.icon_url }}" alt="{{ link.title | escape }}" title="{{ link.title | escape }}" style="width:1.3em;height:1.3em;vertical-align:-0.25em;">
               {%- else -%}
                 <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
               {%- endif -%}
