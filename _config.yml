@@ -31,11 +31,11 @@ linkedin_username: bokeum
 
 # Additional icon links
 additional_links:
-- title: X (Twitter)
-  icon: fab fa-x-twitter
+- title: X
+  icon: x-icon
   url: https://x.com/bokeum
 - title: Threads
-  icon: fab fa-threads
+  icon: threads-icon
   url: https://www.threads.com/@geumverse_ai
 
 # Google Analytics and Tag Manager
