@@ -99,7 +99,7 @@ content:
       - layout: left
         title: HelloNature
         # link: https://www.hellonature.co.kr/
-        sub_title: Systems / Cloud Engineer
+        sub_title: Cloud Engineer
         caption: December 2019 - November 2020
         quote: >
           Fresh Food E-commerce
@@ -123,7 +123,7 @@ content:
       - layout: left
         title: Infranics
         # link: http://infranics.com/
-        sub_title: Systems Engineer
+        sub_title: Cloud Engineer
         caption: May 2013 - December 2014
         quote: >
           Samsung SDS Cloud · AWS MSP
@@ -185,7 +185,7 @@ content:
     content:
       - layout: left
         title: Hankyong National University
-        caption: 2007 - 2018
+        caption: Graduated 2018
         sub_title: B.E. in Information Control Engineering
 
 # Footer
